@@ -13,9 +13,14 @@ Types of changes :
 
 ## [Unreleased]
 
+## [1.1] - 2020-02-02
+### Fixed
+- Drupal coding standard
+
 ## [1.0] - 2020-02-02
 ### Added
 - init
 
 [Unreleased]: https://git.drupal.org/project/aaabc_d/compare/7.x-1.0...HEAD
+[1.1]: https://git.drupal.org/project/aaabc_d/compare/7.x-1.0...7.x-1.1
 [1.0]: https://git.drupal.org/project/aaabc_d/tree/7.x-1.0
