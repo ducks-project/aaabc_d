@@ -1,0 +1,54 @@
+{
+    "name": "drupal/aaabc_d",
+    "description": "Provide a simple autoload with composer for Drupal 7.",
+    "type": "drupal-module",
+    "keywords": ["Drupal", "module", "autoload", "composer", "boot", "simple", "core", "improvement"],
+    "homepage": "https://github.com/ducks-project/aaabc_d",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Adrien Loyant",
+            "email": "donaldinou@gmail.com",
+            "homepage": "https://github.com/donaldinou",
+            "role": "Developper"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/7"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.6",
+        "friendsofphp/php-cs-fixer": "^1.12"
+    },
+    "conflict": {
+        "drupal/drupal": "<6.0 >8.0"
+    },
+    "support": {
+        "email": "donaldinou@gmail.com"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Drupal\\aaabc_d\\": "src"
+        },
+        "exclude-from-classmap": [
+            "/src/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Drupal\\aaabc_d\\": "src/Tests"
+        }
+    },
+    "config": {
+        "secure-http": false
+    }
+}
