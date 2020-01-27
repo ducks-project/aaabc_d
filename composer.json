@@ -4,7 +4,7 @@
     "type": "drupal-module",
     "keywords": ["Drupal", "module", "autoload", "composer", "boot", "simple", "core", "improvement"],
     "homepage": "https://github.com/ducks-project/aaabc_d",
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
     "authors": [
         {
             "name": "Adrien Loyant",
