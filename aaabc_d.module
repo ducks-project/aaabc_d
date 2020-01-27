@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Hooks.
+ */
+
+// IMPORTANT: First of all include composer autoload...
+require_once DRUPAL_ROOT . DIRECTORY_SEPARATOR . 'vendor/autoload.php';
+
+/**
+ * Implements hook_help().
+ */
+function aaabc_d_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#aaabc_d':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provide a simple autoload with composer for Drupal 7.') . '</p>';
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_boot().
+ */
+function aabc_d_boot() {
+  // Ensure priority...
+}

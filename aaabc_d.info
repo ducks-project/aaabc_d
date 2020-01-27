@@ -1,0 +1,9 @@
+name = Another Awesome Autoload Beside Composer for Drupal
+description = Provide a simple autoload with composer for Drupal 7.
+package = Core Improvement
+core = 7.x
+php = 5.3
+
+dependencies[] = drupal:system (>= 7.40)
+
+;required = TRUE
