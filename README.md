@@ -13,9 +13,12 @@ Simply because it's simple!
 You just should use composer normally like it was on Drupal 8.
 No overkill module or hook because autoloading and register must be 
 the composer job.
-All this module do is to include the composer "autoload.php" at a key event. 
-This is why the module is named like that. Because of the drupal core files inclusion priority. 
-For example, if you want to *use* (in your .module) a class from another module without *include* the file and the module name is alphabetically after your one, then Drupal 7 will throw an error.
+All this module do is to include the composer "autoload.php" 
+at a key event. 
+This is why the module is named like that, because of the drupal core 
+files inclusion priority. 
+For example, if you want to *use* (in your .module) a class from another 
+module without *include* the file and the module name is alphabetically after your one, then Drupal 7 will throw an error.
 This module will fix that.
 
  * For a full description of the module, visit the project page:
@@ -50,7 +53,10 @@ No configuration needed.
 TROUBLESHOOTING
 ---------------
 
- * Unknown. But keep in mind that you now use the composer `autoload.php` file. So, you also need to tell composer where you're files live in. Like in Drupal 8 "optimized-autoload" will not correctly seek files on your module website directory if it already exist in your contrib repository.
+ * Unknown. But keep in mind that you now use the composer `autoload.php` 
+file. So, you also need to tell composer where you're files live in. 
+Like in Drupal 8 "optimized-autoload" will not correctly seek files on your 
+module website directory if it already exist in your contrib repository.
 
 FAQ
 ---
@@ -64,4 +70,3 @@ MAINTAINERS
 
 Current maintainers:
  * Adrien Loyant (donaldinou) - https://www.drupal.org/u/donaldinou
-

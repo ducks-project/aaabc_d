@@ -23,6 +23,6 @@ function aaabc_d_help($path, $arg) {
 /**
  * Implements hook_boot().
  */
-function aabc_d_boot() {
+function aaabc_d_boot() {
   // Ensure priority...
 }
