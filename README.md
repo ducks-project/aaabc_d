@@ -18,7 +18,8 @@ at a key event.
 This is why the module is named like that, because of the drupal core 
 files inclusion priority. 
 For example, if you want to *use* (in your .module) a class from another 
-module without *include* the file and the module name is alphabetically after your one, then Drupal 7 will throw an error.
+module without *include* the file and the module name is alphabetically 
+after your one, then Drupal 7 will throw an error.
 This module will fix that.
 
  * For a full description of the module, visit the project page:
@@ -41,7 +42,8 @@ INSTALLATION
  * Download and Install aaabc_d module with composer. `composer require drupal/aaabc_d`
  * Enable aaabc_d module.
 
-You can use composer to install and manage dependencies like it's done on [Drupal 8](https://www.drupal.org/docs/develop/using-composer/using-composer-to-install-drupal-and-manage-dependencies).
+You can use composer to install and manage dependencies 
+like it's done on [Drupal 8](https://frama.link/zeH79YK7).
 
 
 CONFIGURATION
