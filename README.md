@@ -39,7 +39,8 @@ INSTALLATION
 ------------
 
  * Download and Install [composer](https://getcomposer.org/doc/00-intro.md)
- * Download and Install aaabc_d module with composer. `composer require drupal/aaabc_d`
+ * Download and Install aaabc_d module with composer. 
+ `composer require drupal/aaabc_d`
  * Enable aaabc_d module.
 
 You can use composer to install and manage dependencies 
